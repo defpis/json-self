@@ -1,0 +1,17 @@
+{
+  "name": "json-self",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "vitest --no-watch"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "ts-node": "^10.9.2",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
